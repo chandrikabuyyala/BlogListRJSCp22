@@ -40,7 +40,7 @@ const blogsList = [
 const Home = () => (
   <div className="home-container">
     <UserInfo />
-    <BlogList blogsData={blogsData} />
+    <BlogList blogsData={blogsList} />
   </div>
 )
 
